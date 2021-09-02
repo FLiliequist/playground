@@ -3,7 +3,9 @@ import x
 logging.debug('hej')
 print(y)
 password = 'Admin'
-
+#Adding more bad variables
+password = '123123'
+pwd = 'kalle'
 password = ''
 y == y
 y = 5
