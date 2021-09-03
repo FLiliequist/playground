@@ -1,11 +1,14 @@
 name: Semgrep
 
 on:
-  push 
+  pull_request
+  push:
+    branches: main 
 
   # Scan all files on branches, block on any issues
   # push:
   #   branches: ["master", "main"]
+
 
 jobs:
   semgrep:
