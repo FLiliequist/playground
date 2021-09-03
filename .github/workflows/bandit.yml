@@ -17,4 +17,3 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: ${{ RUNNER.temp }}/_github_home/bandit_report.out
-			
